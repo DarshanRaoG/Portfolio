@@ -1,0 +1,482 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:'nirmala ui';
+    font-weight:lighter;
+    font-size: x-large;
+    color: #cccccc;
+}
+
+hr{
+    border-color:gray;
+    border-radius: 10px;
+    border-width: 2px;
+}
+section{
+    padding: 45px;
+    background-color: rgb(15 23 42);
+    color: #209CEE;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+h2{
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+h3{
+    font-size: x-large;
+    font-weight: bold;
+}
+
+h4,b{
+    font-weight: 650;
+}
+
+.naviBar{
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    background-color: #18b81b;
+    z-index: 1000;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    
+}
+
+.menu li{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.navA{
+    padding: 30px;
+    padding-bottom: 17px ;
+    font-size: x-large;
+    color: black;
+    transition: background-color 0.2s ease 0.1s;
+}
+
+.navA a{
+    padding: 0;
+}
+.navA:hover{
+    opacity: 0.9;
+    background-color: chartreuse;
+}
+
+
+#me{
+    color:#209CEE;
+    font-size: xxx-large;
+    font-weight: bolder;
+}
+
+.homeContainer{
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.pfpCon{
+    border-radius: 40%;
+}
+.pfp{
+    border-radius:50%;
+    border:5px solid #18b81b;
+    background-color: #18b81b;
+    padding: 0.5px;
+}
+
+.containerH{
+    width: 500px;
+    height:380px;
+    padding-top: 75px;
+    padding-left: 45px;
+    padding-right: 35px;
+    padding-bottom: 75px;
+    margin-left: 20px;
+    border: 2px solid #18b81b;
+    border-radius: 2%;
+    background-color: black;
+}
+
+.containerH,.containerF,.parag,.uni,.school1,.school2,.ski,.proj1,.proj2,.certLink,.sCon{
+    box-shadow: 4px 4px #118213;
+}
+
+.parag{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 70px;
+    width: 800px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border: 2px solid #18b81b;
+    border-radius: 10px;
+    background-color: black;
+}
+
+.containerS{
+    padding: 10px;    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sCon{
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+    margin: 20px;
+    margin-top: 30px;
+    border: 2px solid #18b81b;
+    border-radius: 10px;
+}
+
+.eduCon,.skiCon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 10px;
+}
+
+.uni,.school2,.school1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    border: 2px solid #18b81b;
+    border-radius: 10px;
+    margin: 20px;
+    background-color: black;
+}
+
+.tecSki{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px;
+    margin: 2px;
+}
+
+.ski{
+    padding: 10px;
+    margin: 5px;
+    border: 2px solid #18b81b;
+    border-radius: 10px;
+    transition: background-color 0.1s ease 0.1s;
+    transition: color 0s ease 0.1s;
+    background-color: black;
+}
+
+.ski1:hover{
+    background-color:indigo;
+    color: white;
+}
+
+.ski2:hover{
+    background-color:blueviolet;
+    color: white;
+}
+
+.ski3:hover{
+    background-color:blue;
+    color: white;
+}
+
+.ski4:hover{
+    background-color:green;
+    color: white;
+}
+
+.ski5:hover{
+    background-color:yellow;
+    color:black;
+}
+
+.ski6:hover{
+    background-color:orange;
+    color:black;
+}
+
+.ski7:hover{
+    background-color:rgb(247, 92, 92);
+    color: black;
+}
+
+.allPro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.proj{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin:10px;
+}
+
+.proj1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    margin:10px;
+    border: 2px solid #18b81b;
+    border-radius: 10px;
+    width: 500px;
+    height:150px;
+    transition: background-color 0.15s ease 0.1s;
+    background-color: black;
+}
+
+.pro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 0;   
+}
+
+.proj2{
+    background-color: black;
+    padding: 0px;
+    margin:0px;
+    border: 2px solid #18b81b;
+    border-radius: 10px;
+    width: 150px;
+    height:55px;
+    transition: background-color 0.2s ease 0.1s;
+}
+.proj2:hover,.proj1:hover{
+    background-color: #18ab1a;
+}
+
+.certs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:10px;
+    margin:10px;
+}
+
+.certImg{
+    margin: 10px;
+}
+.conF{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containerF{
+    border: 2px solid #18b81b;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:10px;
+    margin:20px;
+    width: 600px;
+}
+
+#contactMe{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+    padding:10px;
+    margin:10px;
+}
+
+#send{
+    align-self: center;
+    width:90px;
+    height:40px;
+    background-color: #209CEE;
+    border-radius: 10px;
+    transition: background-color 0.3s ease 0.1s;
+    color: black;
+}
+
+#send:hover{
+    background-color: #197fc2;
+    transform: scale(1.1);
+}
+
+#name,#email{
+    margin-top:5px;
+    height:35px;
+}
+
+#message{
+    margin-top:5px;
+    padding:10px;
+    resize: vertical;
+    font-size: x-large;
+}
+
+.containerL{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:10px;
+    margin:10px;
+    margin-bottom: 0;
+}
+
+.imgl{
+    margin:10px;
+    margin-bottom: 0;
+}
+
+.limg{
+    width:48px;
+}
+
+.limg:hover{
+    transform: scale(1.2);
+}
+
+.certLink{
+    border: 2px solid #18b81b;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.certLink:hover{
+    transform: scale(1.05);
+}
+
+textarea,input{
+    border-radius: 5px;
+    padding: 10px;
+    border: 2px solid #18b81b;
+    color: black;
+}
+.copyrt{
+    border-right: 2px solid #18b81b;
+    padding-right: 10px;
+    margin-right: 2px;
+}
+
+@media (max-width:1000px){
+    *{
+        font-size:small;
+        font-weight:normal;
+    }
+    h1,h2,h4{
+        font-size: medium;
+    }
+    h3{
+        font-size: small;
+    }
+    #me{
+        font-size: large;
+    }
+
+    hr{
+        border-width: 1px;
+    }
+    .navA{
+        font-size: small;
+        padding: 8px;
+    }
+    .homeContainer{
+        flex-direction: column;
+    }
+    .pfp{
+        width:150px ;
+        height: 150px;
+    }
+    .containerH{
+        padding: 20px;
+        width: 190px;
+        height: auto;
+        margin:20px;
+    }
+
+    .containerS{
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+    }
+    .parag{
+        width:100%;
+        padding:10px;
+        margin: 10px;
+    }
+
+    .sCon{
+        flex-direction: column;
+    }
+    .sCon,.eduCon,.skiCon{
+        width: 100%;
+        padding: 10px;
+        margin: 10px;
+        margin-left: 0;
+    }
+    .uni,.school1,.school2{
+        width:100%;
+        padding: 10px;
+        margin: 10px;
+        margin-left: 0;
+    }
+
+    .eduCon,.skiCon{
+        align-items: center;
+    }
+    .proj1{
+        width:100%;
+    }
+    .proj2{
+        width:100px;
+        height:45px;
+    }
+
+    .certImg{
+        width:120px;
+        height:100px;
+    }
+
+    .containerF{
+        width:100%;
+    }
+
+    .limg{
+        width:30px;
+        margin:0;
+    }
+    .imgl{
+        margin:2px;
+    }
+    .copyrt{
+        margin:0;
+        padding:0;
+        margin-right: 10px;
+        padding-right: 50px;
+    }
+}
