@@ -11,6 +11,28 @@
           gtag('config', 'G-7N5BZ8L2NN');
         </script>
         
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                const navLinks = document.querySelectorAll(".navA");
+
+                navLinks.forEach(function(link) {
+                    link.addEventListener("click", function(event) {
+                        event.preventDefault();
+                        const targetId = link.getAttribute("href");
+                        const targetElement = document.querySelector(targetId);
+                        
+                        if (targetElement) {
+                            const targetPosition = targetElement.offsetTop;
+                            window.scrollTo({
+                                top: targetPosition,
+                                behavior: "smooth"
+                            });
+                        }
+                    });
+                });
+            });
+        </script>
+
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
         <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
